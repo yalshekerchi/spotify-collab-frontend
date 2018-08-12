@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "prettier", "plugin:prettier/recommended", "plugin:react/recommended"],
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"]
+  }
+}
